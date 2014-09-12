@@ -19,7 +19,7 @@
           <p class="instruction-text">Style a form so that labels are right-aligned against the field, and fields stack vertically.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
+            <form class="signupform">
               <div>
                 <label>First Name</label>
                 <input type="text" name="firstName">
@@ -39,7 +39,7 @@
           <p class="instruction-text">Should work for some more complicated forms...</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
+            <form class="signupform">
               <div>
                 <label>First Name</label>
                 <input type="text" name="firstName">
@@ -60,7 +60,7 @@
               </div>
               <div>
                 <div>
-                  <label><input type="checkbox">Sign up for the newsletter</label>
+                  <label class="newsletter"><input class="formcheckbox" type="checkbox">Sign up for the newsletter</label>
                 </div>
               </div>
               <div>
@@ -79,15 +79,15 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
+            <form class="validateinput">
               <div>
                 <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
+                <input type="text" name="firstNamevalid" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
               <div>
                 <label>Last Name</label>
-                <input type="text" name="lastName">
+                <input class="validate" type="text" name="lastName">
               </div>
               <div>
                 <label>Email</label>

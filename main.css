@@ -1,1 +1,71 @@
 /* ADD YOUR STYLES HERE */
+
+.signupform {
+	text-align: right;
+	display: inline-block;
+	margin: auto;
+	width: 600px;
+}
+
+input {
+	border-radius: 5px;
+	margin: 10px 0px;
+	height: 1.3em;
+	width: 70%;
+	padding: 3px;
+}
+
+.signupform input[name=city] {
+	width: 50%;
+}
+
+.signupform input[name=state] {
+	width: 10.5%;
+}
+
+input.formcheckbox {
+	width: 25px;
+
+}
+
+.newsletter {
+	display: block;
+	width: 61%;
+}
+
+.signupform input[type=submit] {
+	height: 2em;
+	border: none;
+
+}
+
+.validateinput {
+	width: 600px;
+	display: inline-block;
+	margin: auto;
+	text-align: right;
+}
+
+
+.validateinput input:valid {
+	box-shadow: 0 0 10px #0f0;
+}
+
+.validateinput input:invalid {
+	box-shadow: 0 0 10px #00f;
+}
+
+
+.validateinput input:indeterminate {
+	box-shadow: none;
+}
+
+
+.is-valid {
+	color: #0f0;
+
+}
+
+.is-invalid {
+
+}
